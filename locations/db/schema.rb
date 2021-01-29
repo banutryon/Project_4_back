@@ -26,5 +26,4 @@ ActiveRecord::Schema.define(version: 2021_01_29_000232) do
     t.string "img3"
     t.string "description"
   end
-
 end
