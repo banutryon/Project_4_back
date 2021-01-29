@@ -10,6 +10,7 @@ class CreateLocation < ActiveRecord::Migration[6.1]
       t.string :img2
       t.string :img3
       t.string :description
+      
     end
   end
 end
