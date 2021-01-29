@@ -1,9 +1,25 @@
-CREATE TABLE locations (id SERIAL, name VARCHAR(50), street VARCHAR(255), city VARCHAR(160), state VARCHAR(2), zip VARCHAR(5) img VARCHAR(300));
-#seed info Example:
-INSERT INTO locations (name, street, city, state, img) VALUES ('Tree House', '5802 134th Pl SE', 'Everett', 'WA','98208' 'https://media.glampinghub.com/CACHE/images/accommodations/private-tree-house-retreat-overlooking-the-columbia-river-in-washi-1562673467304/cf09d6e633516ddd3274412e337f34dc.jpg');
+Location.create([
 
+    {name: "Tree house", street: "6922 Preston-Fall City Rd SE", city: "Issaquah", state: "WA", zipcode:98027 , img1: "https://www.treehousepoint.com/images/Upper-Pond-2018-banner.jpg", img2: "https://www.treehousepoint.com/images/upper-pond/Upper-TreeHouse-Point-10.jpg", img3: "https://www.treehousepoint.com/images/upper-pond/Upper-TreeHouse-Point-sh-6.jpg", description: "This treehouse sleeps 3 with ease. At 200sqft your tiny home awaits you." },
 
+    {name: "", street: "", city: "", state: "", zipcode: , img1: "", img2: "", img3: "", description: "" },
 
-INSERT INTO locations (name, street, city, state, img) VALUES ('', '', '', '', '', '');
-INSERT INTO locations (name, street, city, state, img) VALUES ('', '', '', '', '', '');
-INSERT INTO locations (name, street, city, state, img) VALUES ('', '', '', '', '', '');
+    {name: "", street: "", city: "", state: "", zipcode: , img1: "", img2: "", img3: "", description: "" },
+
+    {name: "", street: "", city: "", state: "", zipcode: , img1: "", img2: "", img3: "", description: "" },
+
+    {name: "", street: "", city: "", state: "", zipcode: , img1: "", img2: "", img3: "", description: "" },
+
+    {name: "", street: "", city: "", state: "", zipcode: , img1: "", img2: "", img3: "", description: "" },
+
+    {name: "", street: "", city: "", state: "", zipcode: , img1: "", img2: "", img3: "", description: "" },
+
+    {name: "", street: "", city: "", state: "", zipcode: , img1: "", img2: "", img3: "", description: "" },
+
+    {name: "", street: "", city: "", state: "", zipcode: , img1: "", img2: "", img3: "", description: "" },
+
+    {name: "", street: "", city: "", state: "", zipcode: , img1: "", img2: "", img3: "", description: "" },
+    
+    {name: "", street: "", city: "", state: "", zipcode: , img1: "", img2: "", img3: "", description: "" },
+
+])
