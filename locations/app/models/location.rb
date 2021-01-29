@@ -5,8 +5,17 @@ def self.all
     results = DB.exec("SELECT * FROM locations;")
     return results.each do |result|
         {
-        "id" => result["id"].to_i,
-        "name" => result["name"]
+            "id" => result["id"].to_i,
+            "name" => result["name"],
+            "street" => result["street"],
+            "city" => result["city"],
+            "state" => result["state"],
+            "zipcode" => result["zipcode"].to_i,
+            "img1" => result["img1"],
+            "img2" => result["img2"],
+            "img3" => result["img3"],
+            "description" => result["description"]
+
         }
         
     end
@@ -15,7 +24,16 @@ end
     results = DB.exec("SELECT * FROM locations WHERE id=#{id};")
     return {
         "id" => results.first["id"].to_i,
-        "name" => results.first["name"]
+        "name" => results.first["name"],
+        "street" => results.first["street"],
+        "city" => results.first["city"],
+        "state" => results.first["state"],
+        "zipcode" => results.first["zipcode"].to_i,
+        "img1" => results.first["img1"],
+        "img2" => results.first["img2"],
+        "img3" => results.first["img3"],
+        "description" => results.first["description"] 
+        
     }
     end
     def self.create(opts)
