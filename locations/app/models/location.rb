@@ -1,4 +1,4 @@
-class Location<ApplicationRecord
+class Location < ApplicationRecord
     DB = PG.connect({:host=>"localhost", :port => 5432, :dbname => 'locations_development'})
 
     def self.all
@@ -36,21 +36,24 @@ class Location<ApplicationRecord
             
         }
         end
+        
+       
+
         def self.create(new)
             results = DB.exec(
                 <<-SQL
                     INSERT INTO locations (name, street, city, state, zipcode, img1, img2, img3, description)
-                    VALUES ('#{new["name"]}', '#{new["street"]}', '#{new["city"]}', '#{new["state"]}', '#{new["zipcode"]}', '#{new["img1"]}', '#{new["img2"]}', '#{new["img3"]}', '#{new["description"]}' )
+                    VALUES ('#{new["name"]}', '#{new["street"]}', '#{new["city"]}', '#{new["state"]}', #{new["zipcode"]}, '#{new["img1"]}', '#{new["img2"]}', '#{new["img3"]}', '#{new["description"]}' )
                     RETURNING id, name, street, city, state, zipcode, img1, img2, img3, description;
                 SQL
             )
             return {
-                "id" => results.first["id"].to_i,
+                "id" => results.first["id"],
                 "name" => results.first["name"],
                 "street" => results.first["street"],
                 "city" => results.first["city"],
                 "state" => results.first["state"],
-                "zipcode" => results.first["zipcode"].to_i,
+                "zipcode" => results.first["zipcode"],
                 "img1" => results.first["img1"],
                 "img2" => results.first["img2"],
                 "img3" => results.first["img3"],
@@ -71,12 +74,12 @@ class Location<ApplicationRecord
             SQL
         )
         return {
-            "id" => results.first["id"].to_i,
+            "id" => results.first["id"],
             "name" => results.first["name"],
             "street" => results.first["street"],
             "city" => results.first["city"],
             "state" => results.first["state"],
-            "zipcode" => results.first["zipcode"].to_i,
+            "zipcode" => results.first["zipcode"],
             "img1" => results.first["img1"],
             "img2" => results.first["img2"],
             "img3" => results.first["img3"],
