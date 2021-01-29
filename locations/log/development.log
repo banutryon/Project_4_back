@@ -5078,6 +5078,11 @@ Completed 200 OK in 1ms (Views: 0.1ms | Allocations: 270)
   [1m[36mActiveRecord::InternalMetadata Load (1.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
   [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6822477894500144100)[0m
   [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+<<<<<<< HEAD
+Started GET "/locations" for ::1 at 2021-01-29 08:28:51 -0800
+Processing by LocationsController#index as HTML
+Completed 200 OK in 14ms (Views: 0.6ms | Allocations: 808)
+=======
   [1m[35m (319.6ms)[0m  [1m[35mCREATE DATABASE "locations_development" ENCODING = 'unicode'[0m
   [1m[35m (143.7ms)[0m  [1m[35mCREATE DATABASE "locations_test" ENCODING = 'unicode'[0m
   [1m[35m (50.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
@@ -6775,5 +6780,6 @@ Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 266)
 Started GET "/locations" for ::1 at 2021-01-29 15:45:14 -0600
 Processing by LocationsController#index as HTML
 Completed 200 OK in 16ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 2814)
+>>>>>>> 1e7c65f1b9d579d845137b5fadd5e27a112bc847
 
 
