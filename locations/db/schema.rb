@@ -30,7 +30,6 @@ ActiveRecord::Schema.define(version: 2021_01_30_002608) do
   create_table "sellers", force: :cascade do |t|
     t.string "name"
     t.string "contact"
-    t.string "location_id"
   end
 
 end
