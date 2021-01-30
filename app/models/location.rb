@@ -5,7 +5,7 @@ class Location < ApplicationRecord
       elsif
         DB = PG.connect({ :port => 5432, :dbname => 'locations_development'})
       end
-    # DB = PG.connect({ :port => 5432, :dbname => 'locations_development' })
+    # DB = PG.connect({ :port => 5432, :dbname => 'locations_development' #asdf})
 
     def self.all
         results = DB.exec("SELECT * FROM locations;")
