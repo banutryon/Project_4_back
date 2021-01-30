@@ -1,6 +1,9 @@
 class Location < ApplicationRecord
-    DB = PG.connect({:host=>"localhost", :port => 5432, :dbname => 'locations_development'})
-
+    if ENV["DATABASE_URL"]
+        PG.connect(ENV['DATABASE_URL'])
+      elsif
+        DB = PG.connect({:host=>"localhost", :port => 5432, :dbname => 'locations_development'})
+    end
     def self.all
         results = DB.exec("SELECT * FROM locations;")
         return results.each do |result|
