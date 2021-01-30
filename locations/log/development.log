@@ -1174,3 +1174,8 @@ Processing by LocationsController#index as HTML
 Completed 200 OK in 12ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 2654)
 
 
+Started GET "/locations" for ::1 at 2021-01-29 22:34:57 -0800
+Processing by LocationsController#index as HTML
+Completed 200 OK in 4ms (Views: 2.1ms | Allocations: 1956)
+
+
