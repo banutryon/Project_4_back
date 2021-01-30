@@ -1280,3 +1280,36 @@ Processing by LocationsController#index as HTML
 Completed 200 OK in 8ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2799)
 
 
+Started GET "/" for ::1 at 2021-01-30 12:35:03 -0800
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/banutryon/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/banutryon/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.0ms | Allocations: 335)
+Completed 200 OK in 21ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 2445)
+
+
+Started GET "/static/js/bundle.js" for ::1 at 2021-01-30 12:35:11 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
+  
+Started GET "/static/js/0.chunk.js" for ::1 at 2021-01-30 12:35:12 -0800
+Started GET "/static/js/main.chunk.js" for ::1 at 2021-01-30 12:35:12 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/static/js/0.chunk.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/static/js/main.chunk.js"):
+  
+Started GET "/static/js/main.chunk.js" for ::1 at 2021-01-30 12:35:12 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/static/js/main.chunk.js"):
+  
+Started GET "/manifest.json" for ::1 at 2021-01-30 12:35:12 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/locations" for ::1 at 2021-01-30 12:36:24 -0800
+Processing by LocationsController#index as HTML
+Completed 200 OK in 13ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 3110)
+
+
