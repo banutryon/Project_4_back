@@ -9,12 +9,12 @@ class Location < ApplicationRecord
       def self.find(id)
           results = DB.exec("SELECT * FROM locations WHERE id=#{id};")
           return {
-              :id => results.first["id"].to_i,
+              :id => results.first["id"],
               :name => results.first["name"],
               :street => results.first["street"],
               :city => results.first["city"],
               :state => results.first["state"],
-              :zipcode => results.first["zipcode"].to_i,
+              :zipcode => results.first["zipcode"],
               :img1 => results.first["img1"],
               :img2 => results.first["img2"],
               :img3 => results.first["img3"],
@@ -51,12 +51,12 @@ class Location < ApplicationRecord
               SQL
           )
           return {
-              :id => results.first["id"].to_i,
+              :id => results.first["id"],
               :name => results.first["name"],
               :street => results.first["street"],
               :city => results.first["city"],
               :state => results.first["state"],
-              :zipcode => results.first["zipcode"].to_i,
+              :zipcode => results.first["zipcode"],
               :img1 => results.first["img1"],
               :img2 => results.first["img2"],
               :img3 => results.first["img3"],
