@@ -1267,3 +1267,16 @@ Processing by SellersController#index as HTML
 Completed 200 OK in 930ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1596)
 
 
+Started GET "/" for ::1 at 2021-01-30 13:43:17 -0500
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/aliendude/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/aliendude/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.9ms | Allocations: 419)
+Completed 200 OK in 16ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 3068)
+
+
+Started GET "/locations" for ::1 at 2021-01-30 13:43:23 -0500
+Processing by LocationsController#index as HTML
+Completed 200 OK in 8ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2799)
+
+
