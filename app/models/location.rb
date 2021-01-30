@@ -3,7 +3,7 @@ class Location < ApplicationRecord
     if ENV["DATABASE_URL"]
         PG.connect(ENV['DATABASE_URL'])
       elsif
-        DB = PG.connect({:host => "localhost", :port => 5432, :dbname => 'locations_development'})
+        DB = PG.connect({ :port => 5432, :dbname => 'locations_development'})
       end
     # DB = PG.connect({ :port => 5432, :dbname => 'locations_development' })
 
