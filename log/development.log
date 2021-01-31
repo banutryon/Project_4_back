@@ -1313,3 +1313,2037 @@ Processing by LocationsController#index as HTML
 Completed 200 OK in 13ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 3110)
 
 
+Started GET "/" for ::1 at 2021-01-31 16:36:12 -0500
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/aliendude/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/aliendude/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.2ms | Allocations: 419)
+Completed 200 OK in 11ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 3071)
+
+
+Started GET "/locations" for ::1 at 2021-01-31 16:36:17 -0500
+Processing by LocationsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1824)
+
+
+  
+SyntaxError (/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+...       :id => results.first["id"].to_i,
+...                             ^~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+...   :name => results.first["name"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+... :price => results.first["price"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+...street => results.first["street"],
+...                         ^~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+...   :city => results.first["city"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+... :state => results.first["state"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+...pcode => results.first["zipcode"].to_i,
+...                        ^~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+...     :lat => results.first["lat"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+...     :lng => results.first["lng"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+...   :img1 => results.first["img1"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+...   :img2 => results.first["img2"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+...   :img3 => results.first["img3"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+...n => results.first["description"] 
+...                    ^~~~~~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:145: unterminated string meets end of file
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:145: unterminated string meets end of file
+app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:145: unterminated string meets end of file
+app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:145: unterminated string meets end of file
+app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/locations_controller.rb:4:in `index'
+Started GET "/locations" for ::1 at 2021-01-31 16:37:20 -0500
+Processing by LocationsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1794)
+
+
+  
+SyntaxError (/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+...       :id => results.first["id"],
+...                             ^~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+...   :name => results.first["name"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+... :price => results.first["price"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+...street => results.first["street"],
+...                         ^~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+...   :city => results.first["city"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+... :state => results.first["state"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+...pcode => results.first["zipcode"],
+...                        ^~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+...     :lat => results.first["lat"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+...     :lng => results.first["lng"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+...   :img1 => results.first["img1"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+...   :img2 => results.first["img2"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+...   :img3 => results.first["img3"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+...n => results.first["description"] 
+...                    ^~~~~~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:145: unterminated string meets end of file
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:145: unterminated string meets end of file
+app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:145: unterminated string meets end of file
+app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:145: unterminated string meets end of file
+app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/locations_controller.rb:4:in `index'
+Started GET "/locations" for ::1 at 2021-01-31 16:42:06 -0500
+Processing by LocationsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1798)
+
+
+  
+SyntaxError (/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+...       :id => results.first["id"],
+...                             ^~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+...   :name => results.first["name"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+            "price" => results.first["price"],
+             ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+..."price" => results.first["price"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+...street => results.first["street"],
+...                         ^~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+...   :city => results.first["city"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+... :state => results.first["state"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+...pcode => results.first["zipcode"],
+...                        ^~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+...     :lat => results.first["lat"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+...     :lng => results.first["lng"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+...   :img1 => results.first["img1"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+...   :img2 => results.first["img2"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+...   :img3 => results.first["img3"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+...n => results.first["description"] 
+...                    ^~~~~~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:145: unterminated string meets end of file
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:145: unterminated string meets end of file
+app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:145: unterminated string meets end of file
+app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:145: unterminated string meets end of file
+app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/locations_controller.rb:4:in `index'
+Started GET "/locations" for ::1 at 2021-01-31 16:42:19 -0500
+Processing by LocationsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1796)
+
+
+  
+SyntaxError (/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:130: syntax error, unexpected local variable or method, expecting ']'
+...       :id => results.first["id"],
+...                             ^~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+...   :name => results.first["name"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+... :price => results.first["price"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+...street => results.first["street"],
+...                         ^~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+...   :city => results.first["city"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+... :state => results.first["state"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+...pcode => results.first["zipcode"],
+...                        ^~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+...     :lat => results.first["lat"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+...     :lng => results.first["lng"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+...   :img1 => results.first["img1"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+...   :img2 => results.first["img2"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+...   :img3 => results.first["img3"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+...n => results.first["description"],
+...                    ^~~~~~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:146: unterminated string meets end of file
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:146: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:146: unterminated string meets end of file
+app/models/location.rb:146: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:146: unterminated string meets end of file
+app/models/location.rb:146: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:146: unterminated string meets end of file
+app/models/location.rb:146: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/locations_controller.rb:4:in `index'
+Started GET "/locations" for ::1 at 2021-01-31 16:43:07 -0500
+Processing by LocationsController#index as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 4111)
+
+
+  
+SyntaxError (/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:130: syntax error, unexpected local variable or method, expecting ']'
+...       :id => results.first["id"],
+...                             ^~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+...   :name => results.first["name"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+... :price => results.first["price"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+...street => results.first["street"],
+...                         ^~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+...   :city => results.first["city"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+... :state => results.first["state"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+...pcode => results.first["zipcode"],
+...                        ^~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+...     :lat => results.first["lat"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+...     :lng => results.first["lng"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+...   :img1 => results.first["img1"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+...   :img2 => results.first["img2"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+...   :img3 => results.first["img3"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+...n => results.first["description"],
+...                    ^~~~~~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:146: unterminated string meets end of file
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:146: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:146: unterminated string meets end of file
+app/models/location.rb:146: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:146: unterminated string meets end of file
+app/models/location.rb:146: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:146: unterminated string meets end of file
+app/models/location.rb:146: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/locations_controller.rb:4:in `index'
+Started GET "/locations" for ::1 at 2021-01-31 16:43:40 -0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LocationsController#index as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2804)
+
+
+  
+SyntaxError (/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:130: syntax error, unexpected local variable or method, expecting ']'
+...       :id => results.first["id"],
+...                             ^~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+...   :name => results.first["name"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+... :price => results.first["price"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+...street => results.first["street"],
+...                         ^~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+...   :city => results.first["city"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+... :state => results.first["state"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+...pcode => results.first["zipcode"],
+...                        ^~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+...     :lat => results.first["lat"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+...     :lng => results.first["lng"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+...   :img1 => results.first["img1"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+...   :img2 => results.first["img2"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+...   :img3 => results.first["img3"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+...n => results.first["description"]
+...                    ^~~~~~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:145: unterminated string meets end of file
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:145: unterminated string meets end of file
+app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:145: unterminated string meets end of file
+app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:145: unterminated string meets end of file
+app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/locations_controller.rb:4:in `index'
+Started GET "/locations" for ::1 at 2021-01-31 16:43:57 -0500
+Processing by LocationsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1794)
+
+
+  
+SyntaxError (/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:130: syntax error, unexpected local variable or method, expecting ']'
+...       :id => results.first["id"],
+...                             ^~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+...   :name => results.first["name"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+... :price => results.first["price"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+...street => results.first["street"],
+...                         ^~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+...   :city => results.first["city"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+... :state => results.first["state"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+...pcode => results.first["zipcode"],
+...                        ^~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+...     :lat => results.first["lat"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+...     :lng => results.first["lng"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+...   :img1 => results.first["img1"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+...   :img2 => results.first["img2"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+...   :img3 => results.first["img3"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+...n => results.first["description"]
+...                    ^~~~~~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:145: unterminated string meets end of file
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:145: unterminated string meets end of file
+app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:145: unterminated string meets end of file
+app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:145: unterminated string meets end of file
+app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/locations_controller.rb:4:in `index'
+Started GET "/locations" for ::1 at 2021-01-31 16:47:21 -0500
+Processing by LocationsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1794)
+
+
+  
+SyntaxError (/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:130: syntax error, unexpected local variable or method, expecting ']'
+...       :id => results.first["id"],
+...                             ^~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+...   :name => results.first["name"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+... :price => results.first["price"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+...street => results.first["street"],
+...                         ^~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+...   :city => results.first["city"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+... :state => results.first["state"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+...pcode => results.first["zipcode"],
+...                        ^~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+...     :lat => results.first["lat"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+...     :lng => results.first["lng"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+...   :img1 => results.first["img1"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+...   :img2 => results.first["img2"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+...   :img3 => results.first["img3"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+...n => results.first["description"]
+...                    ^~~~~~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:145: unterminated string meets end of file
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:145: unterminated string meets end of file
+app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:145: unterminated string meets end of file
+app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:145: unterminated string meets end of file
+app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/locations_controller.rb:4:in `index'
+Started GET "/locations" for ::1 at 2021-01-31 16:48:09 -0500
+Processing by LocationsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1846)
+
+
+  
+SyntaxError (/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:130: syntax error, unexpected local variable or method, expecting ']'
+            "id" => results.first["id"],
+             ^~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+...      "id" => results.first["id"],
+...                             ^~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+            "name" => results.first["name"],
+             ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+...  "name" => results.first["name"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+            "price" => results.first["price"],
+             ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+..."price" => results.first["price"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+            "street" => results.first["street"],
+             ^~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+...treet" => results.first["street"],
+...                         ^~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+            "city" => results.first["city"],
+             ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+...  "city" => results.first["city"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+            "state" => results.first["state"],
+             ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+..."state" => results.first["state"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+            "zipcode" => results.first["zipcode"],
+             ^~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+...code" => results.first["zipcode"],
+...                        ^~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+            "lat" => results.first["lat"],
+             ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+...    "lat" => results.first["lat"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+            "lng" => results.first["lng"],
+             ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+...    "lng" => results.first["lng"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+            "img1" => results.first["img1"],
+             ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+...  "img1" => results.first["img1"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+            "img2" => results.first["img2"],
+             ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+...  "img2" => results.first["img2"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+            "img3" => results.first["img3"],
+             ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+...  "img3" => results.first["img3"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+            "description" => results.first["descripti...
+             ^~~~~~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+..." => results.first["description"]
+...                    ^~~~~~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:145: unterminated string meets end of file
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:145: unterminated string meets end of file
+app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:145: unterminated string meets end of file
+app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:142: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:145: unterminated string meets end of file
+app/models/location.rb:145: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/locations_controller.rb:4:in `index'
+Started GET "/locations" for ::1 at 2021-01-31 16:48:25 -0500
+Processing by LocationsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1792)
+
+
+  
+SyntaxError (/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+...        id => results.first["id"],
+...                             ^~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+...   :name => results.first["name"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+... :price => results.first["price"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+...street => results.first["street"],
+...                         ^~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+...   :city => results.first["city"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+... :state => results.first["state"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+...pcode => results.first["zipcode"],
+...                        ^~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+...     :lat => results.first["lat"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+...     :lng => results.first["lng"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+...   :img1 => results.first["img1"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+...   :img2 => results.first["img2"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+...   :img3 => results.first["img3"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+...n => results.first["description"]
+...                    ^~~~~~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:144: unterminated string meets end of file
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/locations_controller.rb:4:in `index'
+Started GET "/locations" for ::1 at 2021-01-31 16:49:40 -0500
+Processing by LocationsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1792)
+
+
+  
+SyntaxError (/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+...       :id => results.first["id"],
+...                             ^~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+...   :name => results.first["name"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+... :price => results.first["price"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+...street => results.first["street"],
+...                         ^~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+...   :city => results.first["city"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+... :state => results.first["state"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+...pcode => results.first["zipcode"],
+...                        ^~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+...     :lat => results.first["lat"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+...     :lng => results.first["lng"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+...   :img1 => results.first["img1"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+...   :img2 => results.first["img2"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+...   :img3 => results.first["img3"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+...n => results.first["description"]
+...                    ^~~~~~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:144: unterminated string meets end of file
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/locations_controller.rb:4:in `index'
+Started GET "/locations" for ::1 at 2021-01-31 16:49:56 -0500
+Processing by LocationsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1792)
+
+
+  
+SyntaxError (/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+... #     :id => results.first["id"],
+...                             ^~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+...   :name => results.first["name"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+... :price => results.first["price"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+...street => results.first["street"],
+...                         ^~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+...   :city => results.first["city"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+... :state => results.first["state"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+...pcode => results.first["zipcode"],
+...                        ^~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+...     :lat => results.first["lat"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+...     :lng => results.first["lng"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+...   :img1 => results.first["img1"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+...   :img2 => results.first["img2"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+...   :img3 => results.first["img3"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+...n => results.first["description"]
+...                    ^~~~~~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:144: unterminated string meets end of file
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/locations_controller.rb:4:in `index'
+Started GET "/locations" for ::1 at 2021-01-31 16:50:19 -0500
+Processing by LocationsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1710)
+
+
+  
+SyntaxError (/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:129: unterminated string meets end of file
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:129: syntax error, unexpected end-of-input, expecting ']'):
+  
+app/models/location.rb:129: unterminated string meets end of file
+app/models/location.rb:129: syntax error, unexpected end-of-input, expecting ']'
+app/models/location.rb:129: unterminated string meets end of file
+app/models/location.rb:129: syntax error, unexpected end-of-input, expecting ']'
+app/models/location.rb:129: unterminated string meets end of file
+app/models/location.rb:129: syntax error, unexpected end-of-input, expecting ']'
+app/controllers/locations_controller.rb:4:in `index'
+Started GET "/locations" for ::1 at 2021-01-31 16:50:47 -0500
+Processing by LocationsController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1784)
+
+
+  
+SyntaxError (/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:73: syntax error, unexpected ']', expecting '}'
+...               #{new"[zipcode"]},
+...                              ^
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:74: syntax error, unexpected ',', expecting '}'
+...               '#{new["lat"]}',
+...                              ^
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:75: syntax error, unexpected ',', expecting '}'
+...               '#{new["lng"]}',
+...                              ^
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:76: syntax error, unexpected ',', expecting '}'
+...              '#{new["img1"]}',
+...                              ^
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:77: syntax error, unexpected ',', expecting '}'
+...              '#{new["img2"]}',
+...                              ^
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:78: syntax error, unexpected ',', expecting '}'
+...              '#{new["img3"]}',
+...                              ^
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:80: syntax error, unexpected ')', expecting '}'
+                )
+                ^
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:83: syntax error, unexpected ')', expecting '}'
+        )
+        ^
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:98: syntax error, unexpected '}', expecting '}'
+        }
+        ^
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:104: syntax error, unexpected tLAMBEG, expecting `end'
+        return { "deleted" => true}
+               ^
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:104: syntax error, unexpected '}', expecting `end'
+...    return { "deleted" => true}
+...                              ^
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+...       :id => results.first["id"],
+...                             ^~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+...   :name => results.first["name"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+... :price => results.first["price"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+...street => results.first["street"],
+...                         ^~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+...   :city => results.first["city"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+... :state => results.first["state"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+...pcode => results.first["zipcode"],
+...                        ^~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+...     :lat => results.first["lat"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+...     :lng => results.first["lng"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+...   :img1 => results.first["img1"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+...   :img2 => results.first["img2"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+...   :img3 => results.first["img3"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+...n => results.first["description"]
+...                    ^~~~~~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:144: unterminated string meets end of file
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/models/location.rb:73: syntax error, unexpected ']', expecting '}'
+app/models/location.rb:74: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:75: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:76: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:77: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:78: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:80: syntax error, unexpected ')', expecting '}'
+app/models/location.rb:83: syntax error, unexpected ')', expecting '}'
+app/models/location.rb:98: syntax error, unexpected '}', expecting '}'
+app/models/location.rb:104: syntax error, unexpected tLAMBEG, expecting `end'
+app/models/location.rb:104: syntax error, unexpected '}', expecting `end'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:73: syntax error, unexpected ']', expecting '}'
+app/models/location.rb:74: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:75: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:76: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:77: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:78: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:80: syntax error, unexpected ')', expecting '}'
+app/models/location.rb:83: syntax error, unexpected ')', expecting '}'
+app/models/location.rb:98: syntax error, unexpected '}', expecting '}'
+app/models/location.rb:104: syntax error, unexpected tLAMBEG, expecting `end'
+app/models/location.rb:104: syntax error, unexpected '}', expecting `end'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:73: syntax error, unexpected ']', expecting '}'
+app/models/location.rb:74: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:75: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:76: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:77: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:78: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:80: syntax error, unexpected ')', expecting '}'
+app/models/location.rb:83: syntax error, unexpected ')', expecting '}'
+app/models/location.rb:98: syntax error, unexpected '}', expecting '}'
+app/models/location.rb:104: syntax error, unexpected tLAMBEG, expecting `end'
+app/models/location.rb:104: syntax error, unexpected '}', expecting `end'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/locations_controller.rb:4:in `index'
+Started GET "/locations" for ::1 at 2021-01-31 16:50:56 -0500
+Processing by LocationsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1781)
+
+
+  
+SyntaxError (/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:73: syntax error, unexpected ']', expecting '}'
+...              '#{new"[zipcode"]}',
+...                              ^
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:75: syntax error, unexpected ',', expecting '}'
+...               '#{new["lng"]}',
+...                              ^
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:76: syntax error, unexpected ',', expecting '}'
+...              '#{new["img1"]}',
+...                              ^
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:77: syntax error, unexpected ',', expecting '}'
+...              '#{new["img2"]}',
+...                              ^
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:78: syntax error, unexpected ',', expecting '}'
+...              '#{new["img3"]}',
+...                              ^
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:80: syntax error, unexpected ')', expecting '}'
+                )
+                ^
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:83: syntax error, unexpected ')', expecting '}'
+        )
+        ^
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:98: syntax error, unexpected '}', expecting '}'
+        }
+        ^
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:104: syntax error, unexpected tLAMBEG, expecting `end'
+        return { "deleted" => true}
+               ^
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:104: syntax error, unexpected '}', expecting `end'
+...    return { "deleted" => true}
+...                              ^
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+...       :id => results.first["id"],
+...                             ^~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+...   :name => results.first["name"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+... :price => results.first["price"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+...street => results.first["street"],
+...                         ^~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+...   :city => results.first["city"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+... :state => results.first["state"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+...pcode => results.first["zipcode"],
+...                        ^~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+...     :lat => results.first["lat"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+...     :lng => results.first["lng"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+...   :img1 => results.first["img1"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+...   :img2 => results.first["img2"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+...   :img3 => results.first["img3"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+...n => results.first["description"]
+...                    ^~~~~~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:144: unterminated string meets end of file
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/models/location.rb:73: syntax error, unexpected ']', expecting '}'
+app/models/location.rb:75: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:76: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:77: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:78: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:80: syntax error, unexpected ')', expecting '}'
+app/models/location.rb:83: syntax error, unexpected ')', expecting '}'
+app/models/location.rb:98: syntax error, unexpected '}', expecting '}'
+app/models/location.rb:104: syntax error, unexpected tLAMBEG, expecting `end'
+app/models/location.rb:104: syntax error, unexpected '}', expecting `end'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:73: syntax error, unexpected ']', expecting '}'
+app/models/location.rb:75: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:76: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:77: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:78: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:80: syntax error, unexpected ')', expecting '}'
+app/models/location.rb:83: syntax error, unexpected ')', expecting '}'
+app/models/location.rb:98: syntax error, unexpected '}', expecting '}'
+app/models/location.rb:104: syntax error, unexpected tLAMBEG, expecting `end'
+app/models/location.rb:104: syntax error, unexpected '}', expecting `end'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:73: syntax error, unexpected ']', expecting '}'
+app/models/location.rb:75: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:76: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:77: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:78: syntax error, unexpected ',', expecting '}'
+app/models/location.rb:80: syntax error, unexpected ')', expecting '}'
+app/models/location.rb:83: syntax error, unexpected ')', expecting '}'
+app/models/location.rb:98: syntax error, unexpected '}', expecting '}'
+app/models/location.rb:104: syntax error, unexpected tLAMBEG, expecting `end'
+app/models/location.rb:104: syntax error, unexpected '}', expecting `end'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/locations_controller.rb:4:in `index'
+Started GET "/locations" for ::1 at 2021-01-31 16:51:04 -0500
+Processing by LocationsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1792)
+
+
+  
+SyntaxError (/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+...       :id => results.first["id"],
+...                             ^~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+...   :name => results.first["name"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+... :price => results.first["price"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+...street => results.first["street"],
+...                         ^~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+...   :city => results.first["city"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+... :state => results.first["state"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+...pcode => results.first["zipcode"],
+...                        ^~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+...     :lat => results.first["lat"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+...     :lng => results.first["lng"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+...   :img1 => results.first["img1"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+...   :img2 => results.first["img2"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+...   :img3 => results.first["img3"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+...n => results.first["description"]
+...                    ^~~~~~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:144: unterminated string meets end of file
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/locations_controller.rb:4:in `index'
+Started GET "/locations" for ::1 at 2021-01-31 16:51:16 -0500
+Processing by LocationsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1792)
+
+
+  
+SyntaxError (/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+...       :id => results.first["id"],
+...                             ^~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+...   :name => results.first["name"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+... :price => results.first["price"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+...street => results.first["street"],
+...                         ^~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+...   :city => results.first["city"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+... :state => results.first["state"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+...pcode => results.first["zipcode"],
+...                        ^~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+...     :lat => results.first["lat"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+...     :lng => results.first["lng"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+...   :img1 => results.first["img1"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+...   :img2 => results.first["img2"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+...   :img3 => results.first["img3"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+...n => results.first["description"]
+...                    ^~~~~~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:144: unterminated string meets end of file
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/locations_controller.rb:4:in `index'
+Started GET "/locations" for ::1 at 2021-01-31 16:51:33 -0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LocationsController#index as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2802)
+
+
+  
+SyntaxError (/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+...       :id => results.first["id"],
+...                             ^~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+...   :name => results.first["name"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+... :price => results.first["price"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+...street => results.first["street"],
+...                         ^~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+...   :city => results.first["city"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+... :state => results.first["state"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+...pcode => results.first["zipcode"],
+...                        ^~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+...     :lat => results.first["lat"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+...     :lng => results.first["lng"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+...   :img1 => results.first["img1"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+...   :img2 => results.first["img2"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+...   :img3 => results.first["img3"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+...n => results.first["description"]
+...                    ^~~~~~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:144: unterminated string meets end of file
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/locations_controller.rb:4:in `index'
+Started GET "/locations" for ::1 at 2021-01-31 16:51:59 -0500
+Processing by LocationsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1792)
+
+
+  
+SyntaxError (/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+...       :id => results.first["id"],
+...                             ^~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+...   :name => results.first["name"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+... :price => results.first["price"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+...street => results.first["street"],
+...                         ^~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+...   :city => results.first["city"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+... :state => results.first["state"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+...pcode => results.first["zipcode"],
+...                        ^~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+...     :lat => results.first["lat"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+...     :lng => results.first["lng"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+...   :img1 => results.first["img1"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+...   :img2 => results.first["img2"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+...   :img3 => results.first["img3"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+...n => results.first["description"]
+...                    ^~~~~~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:144: unterminated string meets end of file
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/locations_controller.rb:4:in `index'
+Started GET "/locations" for ::1 at 2021-01-31 16:52:36 -0500
+Processing by LocationsController#index as HTML
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms | Allocations: 4109)
+
+
+  
+SyntaxError (/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+...       :id => results.first["id"],
+...                             ^~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+...   :name => results.first["name"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+... :price => results.first["price"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+...street => results.first["street"],
+...                         ^~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+...   :city => results.first["city"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+... :state => results.first["state"],
+...                          ^~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+...pcode => results.first["zipcode"],
+...                        ^~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+...     :lat => results.first["lat"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+...     :lng => results.first["lng"],
+...                            ^~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+...   :img1 => results.first["img1"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+...   :img2 => results.first["img2"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+...   :img3 => results.first["img3"],
+...                           ^~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+...n => results.first["description"]
+...                    ^~~~~~~~~~~
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:144: unterminated string meets end of file
+/home/aliendude/dev/project-4/Project_4_back/app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/models/location.rb:129: syntax error, unexpected local variable or method, expecting ']'
+app/models/location.rb:130: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:131: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:132: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:133: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:134: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:135: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:136: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:137: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:138: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:139: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:140: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:141: syntax error, unexpected local variable or method, expecting '}'
+app/models/location.rb:144: unterminated string meets end of file
+app/models/location.rb:144: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/locations_controller.rb:4:in `index'
+Started GET "/locations" for ::1 at 2021-01-31 16:52:58 -0500
+Processing by LocationsController#index as HTML
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.0ms | Allocations: 1445)
+
+
+  
+PG::ConnectionBad (fe_sendauth: no password supplied
+):
+  
+app/models/location.rb:6:in `<class:Location>'
+app/models/location.rb:1:in `<main>'
+app/controllers/locations_controller.rb:4:in `index'

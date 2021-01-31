@@ -110,7 +110,7 @@ class Location < ApplicationRecord
                 UPDATE locations
                 SET
                     name='#{new["name"]}',
-                    price='#{new["price]}',
+                    price='#{new["price"]}',
                     street='#{new["street"]}',
                     city='#{new["city"]}',
                     state='#{new["state"]}',
@@ -126,20 +126,19 @@ class Location < ApplicationRecord
             SQL
         )
         return {
-            :id => results.first["id"].to_i,
+            :id => results.first["id"],
             :name => results.first["name"],
             :price => results.first["price"],
             :street => results.first["street"],
             :city => results.first["city"],
             :state => results.first["state"],
-            :zipcode => results.first["zipcode"].to_i,
+            :zipcode => results.first["zipcode"],
             :lat => results.first["lat"],
             :lng => results.first["lng"],
             :img1 => results.first["img1"],
             :img2 => results.first["img2"],
             :img3 => results.first["img3"],
-            :description => results.first["description"] 
+            :description => results.first["description"]
         }
     end
 end
-
