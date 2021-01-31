@@ -13,6 +13,7 @@ class Location < ApplicationRecord
             {
                 :id => result["id"].to_i,
                 :name => result["name"],
+                :price => result["price"],
                 :street => result["street"],
                 :city => result["city"],
                 :state => result["state"],
@@ -30,6 +31,7 @@ class Location < ApplicationRecord
         return {
             :id => results.first["id"].to_i,
             :name => results.first["name"],
+            :price => results.first["price"],
             :street => results.first["street"],
             :city => results.first["city"],
             :state => results.first["state"],
@@ -48,6 +50,7 @@ class Location < ApplicationRecord
             <<-SQL
                 INSERT INTO locations (
                     name,
+                    price,
                     street,
                     city,
                     state,
@@ -61,6 +64,7 @@ class Location < ApplicationRecord
                 )
                 VALUES (
                     '#{new["name"]}',
+                    '#{new["price"]}',
                     '#{new["street"]}',
                     '#{new["city"]}',
                     '#{new["state"]}',
@@ -72,12 +76,13 @@ class Location < ApplicationRecord
                     '#{new["img3"]}',
                     '#{new["description"]}'
                 )
-                RETURNING id, name, street, city, state, lat, lng, zipcode, img1, img2, img3, description;
+                RETURNING id, name, price, street, city, state, lat, lng, zipcode, img1, img2, img3, description;
             SQL
         )
         return {
             :id => results.first["id"].to_i,
             :name => results.first["name"],
+            :price => results.first["price"],
             :street => results.first["street"],
             :city => results.first["city"],
             :state => results.first["state"],
@@ -103,6 +108,7 @@ class Location < ApplicationRecord
                 UPDATE locations
                 SET
                     name='#{new["name"]}',
+                    price='#{new["price]}',
                     street='#{new["street"]}',
                     city='#{new["city"]}',
                     state='#{new["state"]}',
@@ -114,12 +120,13 @@ class Location < ApplicationRecord
                     img3='#{new["img3"]}',
                     description='#{new["description"]}'
                 WHERE id=#{id}
-                RETURNING id, name, street, city, state, zipcode, lat, lng, img1, img2, img3, description;    
+                RETURNING id, name, price, street, city, state, zipcode, lat, lng, img1, img2, img3, description;    
             SQL
         )
         return {
             :id => results.first["id"].to_i,
             :name => results.first["name"],
+            :price => results.first["price"],
             :street => results.first["street"],
             :city => results.first["city"],
             :state => results.first["state"],
