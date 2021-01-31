@@ -18,6 +18,8 @@ class Location < ApplicationRecord
                 :city => result["city"],
                 :state => result["state"],
                 :zipcode => result["zipcode"].to_i,
+                :lat => result["lat"],
+                :lng => result["lng"],
                 :img1 => result["img1"],
                 :img2 => result["img2"],
                 :img3 => result["img3"],
